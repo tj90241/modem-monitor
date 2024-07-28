@@ -1,0 +1,12 @@
+[Unit]
+Description=WWAN modem control and monitoring service
+After=network.target network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/sbin/modem-monitor
+Restart=on-failure
+RestartSec=10s
+
+[Install]
+WantedBy=multi-user.target
