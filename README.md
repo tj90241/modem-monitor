@@ -8,7 +8,7 @@ more restrictive licensing terms.
 
 ## Backstory
 
-My parents full-time in their RV, and I'm on the "tech guy" on the hook for
+My parents live full-time in their RV, and I'm the "tech guy" on the hook for
 making sure they have a working internet connection. After having issues with
 existing open-source solutions, I decided to write my own that was both simple
 and pedantic.
@@ -17,7 +17,7 @@ Enter `modem-monitor`.
 
 `modem-monitor` has no configuration file or options, and only does exactly
 what _I_ need it to: maintain a dual-stack IPv4/v6 data connection with a
-single provider (Verizon), and setup some static routes/a wireguard tunnels/
+single provider (Verizon), and setup some static routes/wireguard tunnels/
 DNS/NTP even in the face of an unstable connection. So far, it works great at
 doing just that.
 
